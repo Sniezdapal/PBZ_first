@@ -1,4 +1,4 @@
-CREATE TABLE teacher
+CREATE TABLE teachers
 (
 	personal_number CHARACTER VARYING(4) PRIMARY KEY,
 	last_name CHARACTER VARYING(15),
@@ -7,7 +7,7 @@ CREATE TABLE teacher
 	phone_number INTEGER
 );
 
-INSERT INTO teacher VALUES 
+INSERT INTO teachers VALUES 
 	('221Л', 'Фролов', 'Доцент', 'ЭВМ',  487),
 	('222Л', 'Костин', 'Доцент', 'ЭВМ', 543),
 	('225Л', 'Бойко', 'Профессор', 'АСУ', 112),
