@@ -1,4 +1,4 @@
-CREATE TABLE student_group
+CREATE TABLE student_groups
 (
 	code_group_number CHARACTER VARYING(3) PRIMARY KEY,
 	group_name CHARACTER VARYING(5),
@@ -7,7 +7,7 @@ CREATE TABLE student_group
 	headman_surname CHARACTER VARYING(15)
 );
 
-INSERT INTO student_group VALUES 
+INSERT INTO student_groups VALUES 
 	('8Г', 'Э-12', 18, 'ЭВМ', 'Иванова'),
 	('7Г', 'Э-15', 22, 'ЭВМ', 'Сеткин'),
 	('4Г', 'АС-9', 24, 'АСОИ', 'Балабанов'),

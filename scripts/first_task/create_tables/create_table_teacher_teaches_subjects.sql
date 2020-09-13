@@ -1,6 +1,6 @@
 CREATE TABLE teacher_teaches_subjects
 (
-	code_group_number CHARACTER VARYING(3) REFERENCES student_group (code_group_number),
+	code_group_number CHARACTER VARYING(3) REFERENCES student_groups (code_group_number),
 	code_subjet_number CHARACTER VARYING(3) REFERENCES subjects (code_subjet_number), 
 	personal_number CHARACTER VARYING(4) REFERENCES teachers (personal_number),
 	classroom INTEGER
